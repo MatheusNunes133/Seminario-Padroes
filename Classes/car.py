@@ -10,7 +10,7 @@ class Carro:
         self.marca = marca
         self.cor = cor
         self.placa = placa
-        self. modelo = modelo
+        self.modelo = modelo
 
     """ Método para retornar todas as informações """
 
@@ -34,3 +34,20 @@ class Carro:
 
     def getModelo(self):
         return self.modelo
+
+    """ Metodos setters """
+
+    def setNome(self, name):
+        self.nome = name
+
+    def setMarca(self, marca):
+        self.marca = marca
+
+    def setCor(self, cor):
+        self.cor = cor
+
+    def setPlaca(self, placa):
+        self.placa = placa
+
+    def setModelo(self, modelo):
+        self.modelo = modelo
